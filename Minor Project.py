@@ -7,7 +7,7 @@
 # 
 # **Introduction**
 # 
-# Stock Market Analysis and Prediction is the project on technical analysis, visualization and prediction using data provided by Google Finance. By looking at data from the stock market, particularly some giant technology stocks and others. Used pandas to get stock information, visualize different aspects of it, and finally looked at a few ways of analyzing the risk of a stock, based on its previous performance history. Predicted future stock prices through a Monte Carlo method!
+# Stock Market Analysis and Prediction is the project on technical analysis, visualization and prediction using data provided by Yahoo FinGoogleance. By looking at data from the stock market, particularly some giant technology stocks and others. Used pandas to get stock information, visualize different aspects of it, and finally looked at a few ways of analyzing the risk of a stock, based on its previous performance history. Predicted future stock prices through a Monte Carlo method!
 
 # Importing Libraries
 
@@ -171,7 +171,7 @@ closingprice_df = DataReader(tech_list, 'yahoo', start, end)['Close']
 # In[16]:
 
 
-closingprice_df.head(10)
+closingprice_df.head(20)
 
 
 # In[ ]:
